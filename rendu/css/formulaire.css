@@ -1,0 +1,106 @@
+/*body*/
+body{
+    margin: 0%;     
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+/*header*/
+header{
+    width: 100%;
+    display: flex;
+    background-color: #ee7d00;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center ;
+}
+
+main{
+    flex: 1;
+}
+
+/*img*/
+img{
+    display: flex;
+    width: 10%;
+}
+img#logo_iim{
+    margin-right: 5%;
+}
+
+/*li*/
+li{
+    list-style: none;
+}
+li.burger-icon{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 30%;
+    width: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*h*/
+h1{
+    color: white;
+    padding-right: 50%;
+}
+h2{
+    display: flex;
+    justify-content: space-around
+}
+
+/*div*/
+div.barre{
+    width: 90%;
+    height: 15%;
+    background-color: #ee7d00;
+    margin: 2px;
+}
+
+/*ul*/
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+ul#cacher{
+    display: none;
+}
+
+/*a*/
+a{
+    background-color: #eba24f;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 14px 25px;
+}
+
+
+/*footer*/
+footer{
+    height: 100px;
+    background-color: #ee7d00;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+}
+footer ul{
+    background-color: #eba24f;
+    height: 50%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

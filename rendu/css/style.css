@@ -1,0 +1,151 @@
+/*body*/
+body{
+    margin: 0%;
+}
+
+/*header*/
+header{
+    width: 100%;
+    display: flex;
+    background-color: #ee7d00;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center ;
+}
+
+/*img*/
+img{
+    display: flex;
+    width: 10%;
+}
+img#logo_iim{
+    margin-right: 5%;
+}
+
+/*li*/
+li{
+    list-style: none;
+}
+li.burger-icon{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 30%;
+    width: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*h*/
+h1{
+    color: white;
+    padding-right: 50%;
+}
+
+/*div*/
+div.barre{
+    width: 90%;
+    height: 15%;
+    background-color: #ee7d00;
+    margin: 2px;
+}
+
+/*ul*/
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+ul#cacher{
+    display: none;
+}
+
+/*a*/
+a{
+    background-color: #eba24f;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 14px 25px;
+}
+
+
+
+
+/*css slider*/
+    div#slider {
+    position: relative;
+    height: 100%;
+  }
+  
+  div#slider {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  swiper-slide {
+    text-align: center;
+    font-size: 50px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  swiper-slide#slide_1{
+    background-image: url("../img/entrer_devinci.jpg") ;
+    background-position: center;
+    color: white;
+    background-size: cover;
+  }
+  swiper-slide#slide_2{
+    background-image: url("../img/iim_intérieur.webp") ;
+    background-position: center;
+    color: white;
+    background-size: cover;
+  }
+  swiper-slide#slide_3{
+    background-image: url("../img/iim_groupe.webp") ;
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
+  
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+/*footer*/
+footer{
+    height: 100px;
+    background-color: #ee7d00;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+footer ul{
+    background-color: #eba24f;
+    height: 50%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
