@@ -134,8 +134,8 @@ for (let i = 0; i < interet_cheked.length; i++) {
                 }
             }
         } else {
-            for (let i = 0; i < a.length; i++) {
-                a[i].disabled = false;
+            for (let i = 0; i < interet_cheked.length; i++) {
+                interet_cheked[i].disabled = false;
             }
         }
     });
